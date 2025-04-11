@@ -137,7 +137,8 @@ export default function CreateRoom() {
                     <div className="flex-row flex w-full gap-2">
                       <Input
                         //value={`https://colab-code-bridge.vercel.app/#/editor/${roomId}`}
-                        value={`https://http://localhost:5173//${roomId}`}
+                        //value={`https://http://localhost:5173//${roomId}`}
+                        value={`${window.location.origin}/editor/${roomId}`}
                         readOnly
                         className="flex-grow"
                       />
