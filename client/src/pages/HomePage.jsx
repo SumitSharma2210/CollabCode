@@ -24,7 +24,10 @@ export default function LandingPage() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Remote code Execution Platform
+                  CollabCode
+                </h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+                  Online Code Editor and Collaboration Platform
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                   Write, execute, and collaborate on code in real-time. Support
@@ -130,7 +133,7 @@ export default function LandingPage() {
                 </h2>
                 <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Experience the power of real-time collaborative coding with
-                  CodeBridge.
+                  CollabCode
                 </p>
               </div>
             </div>
