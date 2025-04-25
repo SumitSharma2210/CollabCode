@@ -96,7 +96,7 @@ export default function EditorPage() {
         setMembers(clients);
       });
 
-      // ✅ When someone asks for code, send it
+      //  When someone asks for code, send it
       socketRef.current.on("request-code-sync", ({ socketId }) => {
         socketRef.current.emit("sync-code", {
           code: codeRef.current,
@@ -104,7 +104,7 @@ export default function EditorPage() {
         });
       });
 
-      // ✅ When I join, someone will send me the latest code
+      //  When I join, someone will send me the latest code
       socketRef.current.on("sync-code", ({ code }) => {
         if (code !== null && editorRef.current) {
           codeRef.current = code;
